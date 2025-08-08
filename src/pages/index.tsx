@@ -2,13 +2,13 @@ import HomeBanner from '@/components/elements/homeBanner'
 import Footer from '@/layout/footer'
 import Header from '@/layout/header'
 import React, { useState } from 'react'
-import styles from '../styles/home.module.css'
 import { FaCheck } from 'react-icons/fa'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FiPhoneCall } from 'react-icons/fi'
 import SkillBar from '@/components/elements/skillbar'
 import MySkills from '@/components/elements/myskills'
 import Portfolio from '@/components/elements/portfolio'
+import styles from '../../src/styles/home.module.css'
 
 const Home = () => {  
 
