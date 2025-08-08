@@ -8,7 +8,7 @@ import { FiPhoneCall } from 'react-icons/fi'
 import SkillBar from '@/components/elements/skillbar'
 import MySkills from '@/components/elements/myskills'
 import Portfolio from '@/components/elements/portfolio'
-import styles from '../styles/home.module.css';
+import styles from '../styles/components/home.module.css';
 
 const Home = () => {  
 
