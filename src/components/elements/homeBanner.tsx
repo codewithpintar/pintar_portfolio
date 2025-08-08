@@ -46,7 +46,7 @@ const HomeBanner = () => {
                             </div>
                         </div>
                         <div className={styles.imgContent}>
-                            <img src="/images/me2.png" alt="" />
+                            <img src="./images/me2.png" alt="" />
                         </div>
                     </div>
                 </div>

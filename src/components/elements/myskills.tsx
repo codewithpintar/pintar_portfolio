@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import styles from '../../styles/components/myskills.module.css'
 import { myskills } from '@/utils/data/myskills'
-import { FaRegCheckCircle } from 'react-icons/fa'
 
 const MySkills = () => {
     return (
@@ -14,8 +13,7 @@ const MySkills = () => {
                             {
                                 myskills?.map((item, index) => {
                                     return (
-                                        <li>
-                                            {/* <FaRegCheckCircle fontSize={20} /> &nbsp;&nbsp; */}
+                                        <li key={index}>
                                             {item.skillName}
                                         </li>
                                     )

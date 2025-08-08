@@ -7,15 +7,10 @@ import { FaCheck } from 'react-icons/fa'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FiPhoneCall } from 'react-icons/fi'
 import SkillBar from '@/components/elements/skillbar'
-import { education } from '@/utils/data/education'
 import MySkills from '@/components/elements/myskills'
-import { experience } from '@/utils/data/experience'
 import Portfolio from '@/components/elements/portfolio'
 
-const Home = () => {
-
-  const [eduData, seteduData] = useState(education);
-  
+const Home = () => {  
 
   return (
     <div>
@@ -71,7 +66,7 @@ const Home = () => {
 
             </div>
             <div className={styles.right}>
-              <img src="/images/about-3.png" alt="" />
+              <img src="./images/about-3.png" alt="" />
             </div>
           </div>
         </div>
