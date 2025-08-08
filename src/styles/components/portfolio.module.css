@@ -1,0 +1,77 @@
+.portfolioSection {
+  padding: 70px 0px;
+  background-color: #EFF0EF;
+}
+
+.portfolioMain {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolioCard {
+  height: 300px;
+  width: 32%;
+  color: white;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(31, 31, 31, 0.616);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.content * {
+  transform: translateY(-70%);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.content h2 {
+  font-size: 34px;
+  margin: 15px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.content h3 {
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-weight: normal;
+}
+
+.portfolioCard:hover .content {
+  opacity: 1;
+}
+
+.portfolioCard:hover .content * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.viewBtn {
+  padding: 10px 25px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}

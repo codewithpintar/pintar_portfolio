@@ -1,0 +1,134 @@
+.footerBottom {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.footerBottom p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footerBottom ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerBottom ul li {
+  color: #fff;
+  font-size: 16px;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.footerMain {
+  padding-bottom: 50px;
+}
+
+.footerMain h2 {
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.contact {
+  list-style: none;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact li {
+  margin: 0px 10px;
+}
+
+.contact li button {
+  padding: 15px 30px;
+  background: linear-gradient(
+    to right,
+    var(--primary-color) 0%,
+    var(--primary-color) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: var(--primary-color);
+  border-radius: 5px;
+  transition: background-size 0.4s ease, color 0.4s ease;
+}
+
+.contact li button:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.socialMedia {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 30px 0px 0px 0px;
+}
+
+.socialMedia li {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* GitHub */
+.socialMedia li:nth-child(1) {
+  color: #181717; /* GitHub black */
+}
+
+/* LinkedIn */
+.socialMedia li:nth-child(2) {
+  color: #0a66c2; /* LinkedIn blue */
+}
+
+/* Facebook */
+.socialMedia li:nth-child(3) {
+  color: #1877f2; /* Facebook blue */
+}
+
+/* Instagram */
+.socialMedia li:nth-child(4) {
+  color: #e4405f; /* Instagram pink/red */
+}
+
+/* Pinterest */
+.socialMedia li:nth-child(5) {
+  color: #e60023; /* Pinterest red */
+}
+
+/* Hover effect */
+.socialMedia li:hover {
+  transform: scale(1.2);
+}
+
+.socialMedia li:nth-child(4) {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

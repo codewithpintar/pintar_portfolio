@@ -1,0 +1,74 @@
+.sectionMain {
+  background-color: rgba(240, 255, 255, 0.7);
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 48%;
+  padding: 150px 0px;
+}
+
+.content h2 {
+  margin: 0px;
+  font-size: 28px;
+}
+
+.content h1 {
+  margin: 0px;
+  font-size: 50px;
+}
+
+.content p {
+  font-size: 16px;
+  color: rgb(82, 82, 82);
+  line-height: 1.5;
+}
+
+.imgContent {
+  width: 48%;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContent img {
+  width: 100%;
+  background-size: 100%;
+}
+
+.buttonMain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.contactBtn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #0189ff;
+  padding: 13px 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.dowloadBtn {
+  border: 1px solid rgb(82, 82, 82);
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  padding: 13px 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: rgb(82, 82, 82);
+}

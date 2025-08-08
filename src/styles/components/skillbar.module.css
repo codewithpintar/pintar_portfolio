@@ -1,0 +1,22 @@
+.barContainer {
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px;
+  margin-bottom: 20px;
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.bar {
+  height: 15px;
+  background-color: var(--primary-color);
+  border-radius: 10px 0 0 10px;
+}
